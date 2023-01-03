@@ -1,0 +1,62 @@
+.App{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  width: 75vmin;
+  height: 100%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  padding: 40px 0;
+}
+input[type="text"]{
+  width: 100%;
+  padding: 15px 10px;
+  border:none;
+  border-bottom: 1px solid rgb(211, 213, 225);
+  outline: none;
+  border-radius: 5px 5px 0 0;
+  background-color: #fff;
+  font-size: 16px;
+}
+.loading {
+  background: url(http://www.xiconeditor.com/image/icons/loading.gif) no-repeat right center;
+}
+.formButtons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.formButtons button{
+  height: 50px;
+  background-color: #89338c;
+  padding: 10px 20px;
+  color:rgb(255, 255, 255);
+  border-radius: 5px;
+  border: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.formButtons button:hover{
+  background-color: #8a0e65;
+}
+ul{
+  list-style: none;
+}
+.list{
+  width: 88.1%;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+}
+.list-item{
+  cursor: pointer;
+  padding: 10px 5px ;
+}
+.list-item:hover{
+  background-color: #dddddd;
+}
